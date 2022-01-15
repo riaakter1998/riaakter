@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML || CONTACT</title>
+</head>
+<body>
+   
+ <!--header part start  -->
+    
+ <nav>
+    <a href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="about.html">ABOUT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="contact.html">CONTACT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="login.html">LOGIN</a>
+</nav>
+
+ <!--header part end -->
+
+
+ <!-- main part start -->
+
+ <section>&nbsp;&nbsp;&nbsp;&nbsp;
+     <div>
+         <h3>CONTACT US</h3>
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <label for="Name" class="fcf-label">Your Name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your Email Address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your Message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <label for="contact reason">Contact Reason</label>
+        <select id="contact reason" name="contact reason">
+          <option value="sales">Sales</option>
+          <option value="help">Help</option>
+          <option value="billing">Billing</option>
+        </select>
+
+        <div class="fcf-form-group">
+
+            <button class="submit"><a href="contact.html">SUBMIT</a></button>
+           
+        </div>
+        
+     </div>
+ </section>
+
+ <!-- main part start -->
+
+ <!-- footer part start -->
+   <section>
+       <div>
+        <p>Copyright © 2022 [ RFD Tech Station] Powered by Ria</p>
+       </div>
+   </section>
+
+ <!-- footer part end -->
+
+
+
+</body>
+</html>
